@@ -1,0 +1,14 @@
+# Quartus junk folders
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+
+# non-editable file that stores user preferences and other information such as the position
+#        of the windows, the open files and their positions in the windows, and the windows
+#        information, such as docking status
+*.qws
+
+# vim temporary files
+*.swp
