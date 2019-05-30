@@ -1,0 +1,11 @@
+module binary_search_board(
+	input [9:0] SW,
+	input CLOCK_50,
+	input [0:0] KEY,
+	output HEX0, HEX1,
+	output LEDR[9:0]
+);
+
+	
+	
+endmodule
