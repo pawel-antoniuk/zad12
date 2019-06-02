@@ -9,7 +9,7 @@ module binary_search_board(
 	wire [4:0] L;
 	wire c;
 	
-	counter_modulo_k_rollover_0 #(500) (1, 1, CLOCK_50, ,c);
+	counter_modulo_k_rollover_0 #(2) (1, 1, CLOCK_50, ,c);
 	
 	binary_search(c, KEY[0], SW[9], SW[7:0], , , LEDR[9], L);
 	

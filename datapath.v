@@ -54,7 +54,7 @@ module datapath(
 		reg_addr_r = 0;
 		
 		if(~clr) begin
-			reg_addr_r = Addr - N / 2;
+			reg_addr_r = N / 2;
 			reg_addr_in = 1;
 			counter_ena = 1;
 			counter_sreset = 0;
